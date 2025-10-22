@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import GPTChat from './components/GPTChat';
+import ChatDemo from './components/ChatDemo';
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
           Learn React
         </a>
       </header>
+      
+      {/* GPT Chat Demo */}
+      <ChatDemo />
+      
+      {/* GPT Chat Component */}
+      <GPTChat />
     </div>
   );
 }
